@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECFC442F2889373200F5E962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC442E2889373200F5E962 /* AppDelegate.swift */; };
+		ECFC44312889373200F5E962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC44302889373200F5E962 /* SceneDelegate.swift */; };
+		ECFC44332889373200F5E962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC44322889373200F5E962 /* ViewController.swift */; };
+		ECFC44362889373200F5E962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFC44342889373200F5E962 /* Main.storyboard */; };
+		ECFC44382889373400F5E962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFC44372889373400F5E962 /* Assets.xcassets */; };
+		ECFC443B2889373400F5E962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFC44392889373400F5E962 /* LaunchScreen.storyboard */; };
+		ECFC44462889373500F5E962 /* SkoltadoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC44452889373500F5E962 /* SkoltadoTests.swift */; };
+		ECFC44502889373500F5E962 /* SkoltadoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC444F2889373500F5E962 /* SkoltadoUITests.swift */; };
+		ECFC44522889373500F5E962 /* SkoltadoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC44512889373500F5E962 /* SkoltadoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECFC44422889373500F5E962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECFC44232889373200F5E962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFC442A2889373200F5E962;
+			remoteInfo = Skoltado;
+		};
+		ECFC444C2889373500F5E962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECFC44232889373200F5E962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFC442A2889373200F5E962;
+			remoteInfo = Skoltado;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECFC442B2889373200F5E962 /* Skoltado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skoltado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFC442E2889373200F5E962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECFC44302889373200F5E962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECFC44322889373200F5E962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECFC44352889373200F5E962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECFC44372889373400F5E962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECFC443A2889373400F5E962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECFC443C2889373400F5E962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFC44412889373500F5E962 /* SkoltadoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkoltadoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFC44452889373500F5E962 /* SkoltadoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkoltadoTests.swift; sourceTree = "<group>"; };
+		ECFC444B2889373500F5E962 /* SkoltadoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkoltadoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFC444F2889373500F5E962 /* SkoltadoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkoltadoUITests.swift; sourceTree = "<group>"; };
+		ECFC44512889373500F5E962 /* SkoltadoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkoltadoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECFC44282889373200F5E962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC443E2889373500F5E962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC44482889373500F5E962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECFC44222889373200F5E962 = {
+			isa = PBXGroup;
+			children = (
+				ECFC442D2889373200F5E962 /* Skoltado */,
+				ECFC44442889373500F5E962 /* SkoltadoTests */,
+				ECFC444E2889373500F5E962 /* SkoltadoUITests */,
+				ECFC442C2889373200F5E962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECFC442C2889373200F5E962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC442B2889373200F5E962 /* Skoltado.app */,
+				ECFC44412889373500F5E962 /* SkoltadoTests.xctest */,
+				ECFC444B2889373500F5E962 /* SkoltadoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECFC442D2889373200F5E962 /* Skoltado */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC442E2889373200F5E962 /* AppDelegate.swift */,
+				ECFC44302889373200F5E962 /* SceneDelegate.swift */,
+				ECFC44322889373200F5E962 /* ViewController.swift */,
+				ECFC44342889373200F5E962 /* Main.storyboard */,
+				ECFC44372889373400F5E962 /* Assets.xcassets */,
+				ECFC44392889373400F5E962 /* LaunchScreen.storyboard */,
+				ECFC443C2889373400F5E962 /* Info.plist */,
+			);
+			path = Skoltado;
+			sourceTree = "<group>";
+		};
+		ECFC44442889373500F5E962 /* SkoltadoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC44452889373500F5E962 /* SkoltadoTests.swift */,
+			);
+			path = SkoltadoTests;
+			sourceTree = "<group>";
+		};
+		ECFC444E2889373500F5E962 /* SkoltadoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC444F2889373500F5E962 /* SkoltadoUITests.swift */,
+				ECFC44512889373500F5E962 /* SkoltadoUITestsLaunchTests.swift */,
+			);
+			path = SkoltadoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECFC442A2889373200F5E962 /* Skoltado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFC44552889373500F5E962 /* Build configuration list for PBXNativeTarget "Skoltado" */;
+			buildPhases = (
+				ECFC44272889373200F5E962 /* Sources */,
+				ECFC44282889373200F5E962 /* Frameworks */,
+				ECFC44292889373200F5E962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skoltado;
+			productName = Skoltado;
+			productReference = ECFC442B2889373200F5E962 /* Skoltado.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECFC44402889373500F5E962 /* SkoltadoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFC44582889373500F5E962 /* Build configuration list for PBXNativeTarget "SkoltadoTests" */;
+			buildPhases = (
+				ECFC443D2889373500F5E962 /* Sources */,
+				ECFC443E2889373500F5E962 /* Frameworks */,
+				ECFC443F2889373500F5E962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECFC44432889373500F5E962 /* PBXTargetDependency */,
+			);
+			name = SkoltadoTests;
+			productName = SkoltadoTests;
+			productReference = ECFC44412889373500F5E962 /* SkoltadoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECFC444A2889373500F5E962 /* SkoltadoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFC445B2889373500F5E962 /* Build configuration list for PBXNativeTarget "SkoltadoUITests" */;
+			buildPhases = (
+				ECFC44472889373500F5E962 /* Sources */,
+				ECFC44482889373500F5E962 /* Frameworks */,
+				ECFC44492889373500F5E962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECFC444D2889373500F5E962 /* PBXTargetDependency */,
+			);
+			name = SkoltadoUITests;
+			productName = SkoltadoUITests;
+			productReference = ECFC444B2889373500F5E962 /* SkoltadoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECFC44232889373200F5E962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					ECFC442A2889373200F5E962 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					ECFC44402889373500F5E962 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = ECFC442A2889373200F5E962;
+					};
+					ECFC444A2889373500F5E962 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = ECFC442A2889373200F5E962;
+					};
+				};
+			};
+			buildConfigurationList = ECFC44262889373200F5E962 /* Build configuration list for PBXProject "Skoltado" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECFC44222889373200F5E962;
+			productRefGroup = ECFC442C2889373200F5E962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECFC442A2889373200F5E962 /* Skoltado */,
+				ECFC44402889373500F5E962 /* SkoltadoTests */,
+				ECFC444A2889373500F5E962 /* SkoltadoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECFC44292889373200F5E962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC443B2889373400F5E962 /* LaunchScreen.storyboard in Resources */,
+				ECFC44382889373400F5E962 /* Assets.xcassets in Resources */,
+				ECFC44362889373200F5E962 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC443F2889373500F5E962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC44492889373500F5E962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECFC44272889373200F5E962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC44332889373200F5E962 /* ViewController.swift in Sources */,
+				ECFC442F2889373200F5E962 /* AppDelegate.swift in Sources */,
+				ECFC44312889373200F5E962 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC443D2889373500F5E962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC44462889373500F5E962 /* SkoltadoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC44472889373500F5E962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC44522889373500F5E962 /* SkoltadoUITestsLaunchTests.swift in Sources */,
+				ECFC44502889373500F5E962 /* SkoltadoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECFC44432889373500F5E962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECFC442A2889373200F5E962 /* Skoltado */;
+			targetProxy = ECFC44422889373500F5E962 /* PBXContainerItemProxy */;
+		};
+		ECFC444D2889373500F5E962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECFC442A2889373200F5E962 /* Skoltado */;
+			targetProxy = ECFC444C2889373500F5E962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECFC44342889373200F5E962 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECFC44352889373200F5E962 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECFC44392889373400F5E962 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECFC443A2889373400F5E962 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECFC44532889373500F5E962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECFC44542889373500F5E962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECFC44562889373500F5E962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S3J7NRC9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skoltado/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roya1.Skoltado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECFC44572889373500F5E962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S3J7NRC9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skoltado/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roya1.Skoltado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECFC44592889373500F5E962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S3J7NRC9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roya1.SkoltadoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skoltado.app/Skoltado";
+			};
+			name = Debug;
+		};
+		ECFC445A2889373500F5E962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S3J7NRC9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roya1.SkoltadoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skoltado.app/Skoltado";
+			};
+			name = Release;
+		};
+		ECFC445C2889373500F5E962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S3J7NRC9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roya1.SkoltadoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skoltado;
+			};
+			name = Debug;
+		};
+		ECFC445D2889373500F5E962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S3J7NRC9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roya1.SkoltadoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skoltado;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECFC44262889373200F5E962 /* Build configuration list for PBXProject "Skoltado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC44532889373500F5E962 /* Debug */,
+				ECFC44542889373500F5E962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFC44552889373500F5E962 /* Build configuration list for PBXNativeTarget "Skoltado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC44562889373500F5E962 /* Debug */,
+				ECFC44572889373500F5E962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFC44582889373500F5E962 /* Build configuration list for PBXNativeTarget "SkoltadoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC44592889373500F5E962 /* Debug */,
+				ECFC445A2889373500F5E962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFC445B2889373500F5E962 /* Build configuration list for PBXNativeTarget "SkoltadoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC445C2889373500F5E962 /* Debug */,
+				ECFC445D2889373500F5E962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECFC44232889373200F5E962 /* Project object */;
+}
