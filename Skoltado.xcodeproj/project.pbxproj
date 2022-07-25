@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC3D4AD1288B3AAB00DD88C3 /* ShotLocationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3D4AD0288B3AAB00DD88C3 /* ShotLocationRepository.swift */; };
+		EC54C8A5288D73E50077EAEB /* UIKitBloc in Frameworks */ = {isa = PBXBuildFile; productRef = EC54C8A4288D73E50077EAEB /* UIKitBloc */; };
+		EC54C8A7288D73F70077EAEB /* ShotLocationsMapBloc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8A6288D73F70077EAEB /* ShotLocationsMapBloc.swift */; };
+		EC54C8A9288D783A0077EAEB /* Spacings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8A8288D783A0077EAEB /* Spacings.swift */; };
+		EC54C8AB288D79BA0077EAEB /* CreateShotLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8AA288D79BA0077EAEB /* CreateShotLocationView.swift */; };
+		EC54C8B0288DBC510077EAEB /* KeyboardLayoutGuide in Frameworks */ = {isa = PBXBuildFile; productRef = EC54C8AF288DBC510077EAEB /* KeyboardLayoutGuide */; };
+		EC54C8B3288DBCF90077EAEB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8B2288DBCF90077EAEB /* CardView.swift */; };
+		EC54C8B5288DC6620077EAEB /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8B4288DC6620077EAEB /* PrimaryButton.swift */; };
+		EC54C8B7288DC8210077EAEB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8B6288DC8210077EAEB /* Colors.swift */; };
 		ECFC442F2889373200F5E962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC442E2889373200F5E962 /* AppDelegate.swift */; };
 		ECFC44312889373200F5E962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC44302889373200F5E962 /* SceneDelegate.swift */; };
-		ECFC44332889373200F5E962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC44322889373200F5E962 /* ViewController.swift */; };
-		ECFC44362889373200F5E962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFC44342889373200F5E962 /* Main.storyboard */; };
+		ECFC44332889373200F5E962 /* ShotLocationsMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC44322889373200F5E962 /* ShotLocationsMapViewController.swift */; };
 		ECFC44382889373400F5E962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFC44372889373400F5E962 /* Assets.xcassets */; };
 		ECFC443B2889373400F5E962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFC44392889373400F5E962 /* LaunchScreen.storyboard */; };
 		ECFC44462889373500F5E962 /* SkoltadoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC44452889373500F5E962 /* SkoltadoTests.swift */; };
@@ -36,11 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC3D4AD0288B3AAB00DD88C3 /* ShotLocationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotLocationRepository.swift; sourceTree = "<group>"; };
+		EC54C8A6288D73F70077EAEB /* ShotLocationsMapBloc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotLocationsMapBloc.swift; sourceTree = "<group>"; };
+		EC54C8A8288D783A0077EAEB /* Spacings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacings.swift; sourceTree = "<group>"; };
+		EC54C8AA288D79BA0077EAEB /* CreateShotLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateShotLocationView.swift; sourceTree = "<group>"; };
+		EC54C8B2288DBCF90077EAEB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EC54C8B4288DC6620077EAEB /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		EC54C8B6288DC8210077EAEB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		ECFC442B2889373200F5E962 /* Skoltado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skoltado.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFC442E2889373200F5E962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECFC44302889373200F5E962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ECFC44322889373200F5E962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ECFC44352889373200F5E962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECFC44322889373200F5E962 /* ShotLocationsMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotLocationsMapViewController.swift; sourceTree = "<group>"; };
 		ECFC44372889373400F5E962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECFC443A2889373400F5E962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECFC443C2889373400F5E962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC54C8B0288DBC510077EAEB /* KeyboardLayoutGuide in Frameworks */,
+				EC54C8A5288D73E50077EAEB /* UIKitBloc in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +92,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC3D4ACF288B3A9700DD88C3 /* ShotLocationRepository */ = {
+			isa = PBXGroup;
+			children = (
+				EC3D4AD0288B3AAB00DD88C3 /* ShotLocationRepository.swift */,
+			);
+			path = ShotLocationRepository;
+			sourceTree = "<group>";
+		};
+		EC54C8B1288DBCE70077EAEB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EC54C8A8288D783A0077EAEB /* Spacings.swift */,
+				EC54C8B2288DBCF90077EAEB /* CardView.swift */,
+				EC54C8B4288DC6620077EAEB /* PrimaryButton.swift */,
+				EC54C8B6288DC8210077EAEB /* Colors.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		ECFC44222889373200F5E962 = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +136,11 @@
 			children = (
 				ECFC442E2889373200F5E962 /* AppDelegate.swift */,
 				ECFC44302889373200F5E962 /* SceneDelegate.swift */,
-				ECFC44322889373200F5E962 /* ViewController.swift */,
-				ECFC44342889373200F5E962 /* Main.storyboard */,
+				ECFC44322889373200F5E962 /* ShotLocationsMapViewController.swift */,
+				EC54C8A6288D73F70077EAEB /* ShotLocationsMapBloc.swift */,
+				EC54C8AA288D79BA0077EAEB /* CreateShotLocationView.swift */,
+				EC54C8B1288DBCE70077EAEB /* Common */,
+				EC3D4ACF288B3A9700DD88C3 /* ShotLocationRepository */,
 				ECFC44372889373400F5E962 /* Assets.xcassets */,
 				ECFC44392889373400F5E962 /* LaunchScreen.storyboard */,
 				ECFC443C2889373400F5E962 /* Info.plist */,
@@ -143,6 +181,10 @@
 			dependencies = (
 			);
 			name = Skoltado;
+			packageProductDependencies = (
+				EC54C8A4288D73E50077EAEB /* UIKitBloc */,
+				EC54C8AF288DBC510077EAEB /* KeyboardLayoutGuide */,
+			);
 			productName = Skoltado;
 			productReference = ECFC442B2889373200F5E962 /* Skoltado.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +257,10 @@
 				Base,
 			);
 			mainGroup = ECFC44222889373200F5E962;
+			packageReferences = (
+				EC54C8A3288D73E50077EAEB /* XCRemoteSwiftPackageReference "UIKitBloc" */,
+				EC54C8AE288DBC510077EAEB /* XCRemoteSwiftPackageReference "KeyboardLayoutGuide" */,
+			);
 			productRefGroup = ECFC442C2889373200F5E962 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +279,6 @@
 			files = (
 				ECFC443B2889373400F5E962 /* LaunchScreen.storyboard in Resources */,
 				ECFC44382889373400F5E962 /* Assets.xcassets in Resources */,
-				ECFC44362889373200F5E962 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +303,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECFC44332889373200F5E962 /* ViewController.swift in Sources */,
+				EC54C8B5288DC6620077EAEB /* PrimaryButton.swift in Sources */,
+				EC54C8B7288DC8210077EAEB /* Colors.swift in Sources */,
+				ECFC44332889373200F5E962 /* ShotLocationsMapViewController.swift in Sources */,
+				EC54C8A9288D783A0077EAEB /* Spacings.swift in Sources */,
 				ECFC442F2889373200F5E962 /* AppDelegate.swift in Sources */,
+				EC54C8A7288D73F70077EAEB /* ShotLocationsMapBloc.swift in Sources */,
+				EC3D4AD1288B3AAB00DD88C3 /* ShotLocationRepository.swift in Sources */,
+				EC54C8AB288D79BA0077EAEB /* CreateShotLocationView.swift in Sources */,
+				EC54C8B3288DBCF90077EAEB /* CardView.swift in Sources */,
 				ECFC44312889373200F5E962 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ECFC44342889373200F5E962 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECFC44352889373200F5E962 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ECFC44392889373400F5E962 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,14 +486,15 @@
 				INFOPLIST_FILE = Skoltado/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.roya1.Skoltado;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -470,14 +515,15 @@
 				INFOPLIST_FILE = Skoltado/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.roya1.Skoltado;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -602,6 +648,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC54C8A3288D73E50077EAEB /* XCRemoteSwiftPackageReference "UIKitBloc" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jroya1/UIKitBloc";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		EC54C8AE288DBC510077EAEB /* XCRemoteSwiftPackageReference "KeyboardLayoutGuide" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freshOS/KeyboardLayoutGuide";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC54C8A4288D73E50077EAEB /* UIKitBloc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC54C8A3288D73E50077EAEB /* XCRemoteSwiftPackageReference "UIKitBloc" */;
+			productName = UIKitBloc;
+		};
+		EC54C8AF288DBC510077EAEB /* KeyboardLayoutGuide */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC54C8AE288DBC510077EAEB /* XCRemoteSwiftPackageReference "KeyboardLayoutGuide" */;
+			productName = KeyboardLayoutGuide;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ECFC44232889373200F5E962 /* Project object */;
 }
