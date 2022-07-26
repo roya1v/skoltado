@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 
-
 enum Colors {
     static let white = UIColor(hex: "#F7F3F5")!
     static let orange = UIColor(hex: "#D64933")!

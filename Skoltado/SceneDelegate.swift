@@ -18,10 +18,23 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let scene = (scene as? UIWindowScene) else { return }
 
-                window = UIWindow(windowScene: scene)
+        window = UIWindow(windowScene: scene)
+
+        let vc1 = ShotLocationsMapViewController(with: ShotLocationBloc(shotLocationRepository: ShotLocationRepository()))
+        let vc2 = UIViewController()
+        vc2.view.backgroundColor = .blue
+        let vc3 = UIViewController()
+        vc3.view.backgroundColor = .red
+
+        let items = [TabBarItem(image: UIImage(systemName: "map")!, vc: vc1),
+                        TabBarItem(image: UIImage(systemName: "list.dash")!, vc: vc2),
+                        TabBarItem(image: UIImage(systemName: "person")!, vc: vc3),]
+
+        let tabBar = TabBarViewController(items: items)
 
 
-        window?.rootViewController = ShotLocationsMapViewController(with: ShotLocationBloc(shotLocationRepository: ShotLocationRepository()))
+        //window?.rootViewController = ShotLocationsMapViewController(with: ShotLocationBloc(shotLocationRepository: ShotLocationRepository()))
+        window?.rootViewController = tabBar
                 window?.makeKeyAndVisible()
     }
 

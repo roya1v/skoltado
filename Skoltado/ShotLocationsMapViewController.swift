@@ -118,7 +118,7 @@ final class ShotLocationsMapViewController: BlocViewController<ShotLocationMapEv
     // MARK: - UI Setup
 
     private lazy var buttonShownConstraints = [
-        addLocationButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -Spacings.huge)
+        addLocationButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -Spacings.big)
     ]
     private lazy var buttonHiddenConstraints = [
         addLocationButton.topAnchor.constraint(equalTo: view.bottomAnchor)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC06C51F288FBE16005A9EB1 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC06C51E288FBE16005A9EB1 /* TabBarView.swift */; };
 		EC3D4AD1288B3AAB00DD88C3 /* ShotLocationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3D4AD0288B3AAB00DD88C3 /* ShotLocationRepository.swift */; };
 		EC54C8A5288D73E50077EAEB /* UIKitBloc in Frameworks */ = {isa = PBXBuildFile; productRef = EC54C8A4288D73E50077EAEB /* UIKitBloc */; };
 		EC54C8A7288D73F70077EAEB /* ShotLocationsMapBloc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8A6288D73F70077EAEB /* ShotLocationsMapBloc.swift */; };
@@ -16,6 +17,7 @@
 		EC54C8B3288DBCF90077EAEB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8B2288DBCF90077EAEB /* CardView.swift */; };
 		EC54C8B5288DC6620077EAEB /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8B4288DC6620077EAEB /* PrimaryButton.swift */; };
 		EC54C8B7288DC8210077EAEB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8B6288DC8210077EAEB /* Colors.swift */; };
+		EC54C8B9288E75520077EAEB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8B8288E75520077EAEB /* TabBarViewController.swift */; };
 		ECFC442F2889373200F5E962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC442E2889373200F5E962 /* AppDelegate.swift */; };
 		ECFC44312889373200F5E962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC44302889373200F5E962 /* SceneDelegate.swift */; };
 		ECFC44332889373200F5E962 /* ShotLocationsMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC44322889373200F5E962 /* ShotLocationsMapViewController.swift */; };
@@ -44,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC06C51E288FBE16005A9EB1 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		EC3D4AD0288B3AAB00DD88C3 /* ShotLocationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotLocationRepository.swift; sourceTree = "<group>"; };
 		EC54C8A6288D73F70077EAEB /* ShotLocationsMapBloc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotLocationsMapBloc.swift; sourceTree = "<group>"; };
 		EC54C8A8288D783A0077EAEB /* Spacings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacings.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		EC54C8B2288DBCF90077EAEB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EC54C8B4288DC6620077EAEB /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		EC54C8B6288DC8210077EAEB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		EC54C8B8288E75520077EAEB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		ECFC442B2889373200F5E962 /* Skoltado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skoltado.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFC442E2889373200F5E962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECFC44302889373200F5E962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 			children = (
 				ECFC442E2889373200F5E962 /* AppDelegate.swift */,
 				ECFC44302889373200F5E962 /* SceneDelegate.swift */,
+				EC54C8B8288E75520077EAEB /* TabBarViewController.swift */,
+				EC06C51E288FBE16005A9EB1 /* TabBarView.swift */,
 				ECFC44322889373200F5E962 /* ShotLocationsMapViewController.swift */,
 				EC54C8A6288D73F70077EAEB /* ShotLocationsMapBloc.swift */,
 				EC54C8AA288D79BA0077EAEB /* CreateShotLocationView.swift */,
@@ -305,6 +311,7 @@
 			files = (
 				EC54C8B5288DC6620077EAEB /* PrimaryButton.swift in Sources */,
 				EC54C8B7288DC8210077EAEB /* Colors.swift in Sources */,
+				EC54C8B9288E75520077EAEB /* TabBarViewController.swift in Sources */,
 				ECFC44332889373200F5E962 /* ShotLocationsMapViewController.swift in Sources */,
 				EC54C8A9288D783A0077EAEB /* Spacings.swift in Sources */,
 				ECFC442F2889373200F5E962 /* AppDelegate.swift in Sources */,
@@ -312,6 +319,7 @@
 				EC3D4AD1288B3AAB00DD88C3 /* ShotLocationRepository.swift in Sources */,
 				EC54C8AB288D79BA0077EAEB /* CreateShotLocationView.swift in Sources */,
 				EC54C8B3288DBCF90077EAEB /* CardView.swift in Sources */,
+				EC06C51F288FBE16005A9EB1 /* TabBarView.swift in Sources */,
 				ECFC44312889373200F5E962 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
